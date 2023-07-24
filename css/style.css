@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+    /* font-size: 62.5%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sm */
+@media screen and (min-width: 577px){
+    .position-sm-static{
+        position: static !important;
+    }
+    .position-sm-relative{
+        position: relative !important;
+    }
+    .position-sm-fixed{
+        position: fixed !important;
+    }
+    .position-sm-absolute{
+        position: absolute !important;
+    }
+    .position-sm-sticky{
+        position: sticky !important;
+    }
+
+    
+    /* ---- */
+ 
+    
+}
+/* md */
+@media screen and (min-width: 769px){
+    .position-md-static{
+        position: static !important;
+    }
+    .position-md-relative{
+        position: relative !important;
+    }
+    .position-md-fixed{
+        position: fixed !important;
+    }
+    .position-md-absolute{
+        position: absolute !important;
+    }
+    .position-md-sticky{
+        position: sticky !important;
+    }
+
+/* ---- */
+  
+   
+}
+/* lg */
+@media screen and (min-width: 993px){
+    .position-lg-static{
+        position: static !important;
+    }
+    .position-lg-relative{
+        position: relative !important;
+    }
+    .position-lg-fixed{
+        position: fixed !important;
+    }
+    .position-lg-absolute{
+        position: absolute !important;
+    }
+    .position-lg-sticky{
+        position: sticky !important;
+    }
+
+    /* ------- */
+
+
+}
+/* xl */
+@media screen and (min-width: 1200px){
+    .position-xl-static{
+        position: static !important;
+    }
+    .position-xl-relative{
+        position: relative !important;
+    }
+    .position-xl-fixed{
+        position: fixed !important;
+    }
+    .position-xl-absolute{
+        position: absolute !important;
+    }
+    .position-xl-sticky{
+        position: sticky !important;
+    }
+
+
+    /* ---- */
+   
+
+
+}
+/* xxl */
+@media screen and (min-width: 1401px){
+    .position-xxl-static{
+        position: static !important;
+    }
+    .position-xxl-relative{
+        position: relative !important;
+    }
+    .position-xxl-fixed{
+        position: fixed !important;
+    }
+    .position-xxl-absolute{
+        position: absolute !important;
+    }
+    .position-xxl-sticky{
+        position: sticky !important;
+    }
+}
