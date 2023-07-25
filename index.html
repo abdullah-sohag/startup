@@ -3,15 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets\web_ajs9n9fzmsyb_512.png" type="image/x-icon">
     <title>Startup - Web Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <script src="js\94ecb70494.js"></script>
     <link rel="stylesheet" href="css\aos.css">
+    <link rel="stylesheet" href="css\splide.min.css">
     <link rel="stylesheet" href="css\bootstrap.min.css">
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
+
+    <!-- header -->
+    <header class=" sticky-lg-top">
+        <div id="top-head" class="top-header primary-bg d-none d-lg-block ">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-7">
+                        <div class="contact-info d-flex gap-3 align-items-center">
+
+                            <a class=" rubik-font secondary-color text-decoration-none" href="#"> <i class="fa-solid fa-location-dot me-2"></i> 123 Street, New York, USA</a>
+
+                            <a class=" rubik-font secondary-color text-decoration-none" href="tel:+0123456789"> <i class="fa-solid fa-phone me-2"></i> 012 345 6789</a>
+
+                            <a class=" rubik-font secondary-color text-decoration-none" href="mailto:info@example.com"> <i class="fa-solid fa-envelope-open me-2"></i> info@example.com</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="social-icon-box d-flex align-items-center">
+
+                            <a class=" me-2 d-flex justify-content-center align-items-center text-decoration-none rounded-circle secondary-color" href="#"><i class="fa-brands fa-twitter "></i></a>
+
+                            <a class=" me-2 d-flex justify-content-center align-items-center text-decoration-none rounded-circle secondary-color" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+                            <a class=" me-2 d-flex justify-content-center align-items-center text-decoration-none rounded-circle secondary-color" href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                            <a class=" me-2 d-flex justify-content-center align-items-center text-decoration-none rounded-circle secondary-color" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            
+                            <a class=" d-flex justify-content-center align-items-center text-decoration-none rounded-circle secondary-color" href="#"><i class="fa-brands fa-youtube"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav-content" class=" container-fluid">
+
+              <nav class="navbar navbar-expand-lg w-100">
+                  <div class=" row w-100">
+                    <div class="col-6 col-lg-3 d-flex justify-content-center align-items-center">
+                      <a class="navbar-brand d-inline-block" href="#">
+                          <h1 class="d-inline-block nunito-font accent-color"><i class="fa-solid fa-user-tie d-inline-block"></i> Startup</h1>
+                      </a>
+                    </div>
+                    <div class="col-6 col-lg-9">
+                        <div class="nav-items d-flex justify-content-end  h-100 align-items-center align-items-lg-start">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <i class="fa-solid fa-bars accent-color"></i>
+                            </button>
+                            <div class="collapse navbar-collapse position-absolute position-lg-static d-lg-flex justify-content-center gap-2" id="navbarSupportedContent">
+                              <ul class="navbar-nav mb-lg-0">
+                                <li class="nav-item me-lg-3">
+                                  <a class="nav-link nunito-font active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item me-lg-3">
+                                  <a class="nav-link nunito-font" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown me-lg-3">
+                                  <a class="nav-link nunito-font dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item dropdown me-lg-3">
+                                  <a class="nav-link nunito-font dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+              
+                                  </ul>
+                                </li>
+                                <li class="nav-item me-lg-3">
+                                  <a class="nav-link nunito-font" href="#">Link</a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link nunito-font" href="#">Link</a>
+                                </li>
+              
+                              </ul>
+                              <button class="btn accent-color"><i class="fa-solid fa-magnifying-glass"></i></button>
+                              <button class="btn accent-bg secondary-color nunito-font dawnload-btn"><span>Dawnload Pro Version</span></button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </nav>
+            
+        </div>
+
+        
+          
+        
+    </header>
+    <!-- -/header -->
+
+    <!-- main -->
+    <main>
+
+      <!-- baner -->
+      <section id="carosel-box">
+        <div class="carousel-section position-lg-absolute w-100">
+
+          <div class="splide w-100 h-100" id="splid1" role="group" aria-label="Splide Basic HTML Example">
+
+            <div class="splide__track w-100 h-100">
+
+              <ul class="splide__list w-100 h-100">
+
+                <li class="splide__slide w-100 h-100">
+
+                  <div class="slide-content item1 w-100 h-100 d-flex justify-content-center align-items-center flex-column gap-4 pt-5">
+
+                    <p class="hero-tag rubik-font secondary-color">Creative & Innovative</p>
+                    
+                    <h2 class="hero-title nunito-font secondary-color text-center">Creative & Innovative Digital Solution</h2>
+
+                    <div class="btn-box d-flex gap-3">
+                      <button class="btn rubik-font secondary-color left-btn accent-bg position-relative"><span>Free Quote</span></button>
+                      <button class="btn rubik-font secondary-color right-btn">Contact Us</button>
+                    </div>
+
+                  </div>
+
+                </li>
+
+                <li class="splide__slide">
+
+                  <div class="slide-content item2 w-100 h-100 d-flex justify-content-center align-items-center flex-column gap-4">
+
+                    <p class="hero-tag rubik-font secondary-color">Creative & Innovative</p>
+                    
+                    <h2 class="hero-title nunito-font secondary-color text-center">Creative & Innovative Digital Solution</h2>
+
+                    <div class="btn-box d-flex gap-3">
+                      <button class="btn rubik-font secondary-color left-btn accent-bg position-relative"><span>Free Quote</span></button>
+                      <button class="btn rubik-font secondary-color right-btn">Contact Us</button>
+                    </div>
+
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- baner -->
+
+      
+    </main>
+    <!-- -/main -->
     
 
+    <script src="js\splide.min.js"></script>
     <script src="js\aos.js"></script>
     <script src="js\bootstrap.min.js"></script>
     <script src="js\main.js"></script>
