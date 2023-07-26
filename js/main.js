@@ -1,5 +1,8 @@
 const navContent = document.querySelector('#nav-content');
 const topHead = document.querySelector('#top-head');
+const searchBox = document.querySelector('.pop-search');
+const searchCross = document.querySelector('#close-search');
+const searchBtn = document.querySelector('#search-btn');
 
 // aos ----------------------
 
@@ -21,6 +24,26 @@ let splide = new Splide( '#splid1', {
 
 // -/splide --------------------
 
+// loader --------------
+window.addEventListener('load',()=>{
+    
+    const loader = document.querySelector('.loader')
+    setTimeout(hideLoder,1000)
+    
+    function hideLoder (){
+        loader.classList.add('loader--hiden')
+        loader.classList.add('lodar--none')
+}
+
+
+loader.addEventListener('transitionend',()=>{
+
+     loader.remove()
+})
+
+})
+// -/loader ------------
+
 // scroll --------------------
 
 window.onscroll= ()=>{
@@ -35,5 +58,14 @@ window.onscroll= ()=>{
 
 // -/scroll ------------------
 
+
+// search ---------------------
+searchCross.onclick = ()=>{
+    searchBox.classList.add('d-none')
+}
+searchBtn.onclick = ()=>{
+    searchBox.classList.remove('d-none')
+}
+// -/search ---------------------
 
 

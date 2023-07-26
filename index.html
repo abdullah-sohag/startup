@@ -16,6 +16,26 @@
 </head>
 <body>
 
+  <!-- popups -->
+  <div class="loader"></div>
+
+  <div class="pop-search d-none">
+    <div class="position-relative w-100 h-100 d-flex justify-content-center align-items-center">
+      <button id="close-search" class="position-absolute"><i class="fa-solid fa-xmark"></i></button>
+      <form class="search w-100 px-3" action="#">
+
+        <div class="input-group input-group-sm w-100">
+          
+          <input type="text" class="form-control theme-color bg-transparent rubik-font" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+
+          <button class="input-group-text accent-bg btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <!-- popups -->
     <!-- header -->
     <header class=" sticky-lg-top">
         <div id="top-head" class="top-header primary-bg d-none d-lg-block ">
@@ -104,7 +124,7 @@
                                 </li>
               
                               </ul>
-                              <button class="btn accent-color"><i class="fa-solid fa-magnifying-glass"></i></button>
+                              <button id="search-btn" class="btn accent-color"><i class="fa-solid fa-magnifying-glass"></i></button>
                               <button class="btn accent-bg secondary-color nunito-font dawnload-btn"><span>Dawnload Pro Version</span></button>
                             </div>
                         </div>
