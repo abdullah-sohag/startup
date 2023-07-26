@@ -159,6 +159,51 @@ html{
     background-repeat: no-repeat;
 }
 
+.is-active.is-visible p{
+    animation-name: top-botom;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes top-botom {
+    0%   {top:-30px;opacity: 0;}
+    100% {top:0px;opacity: 1;}
+  }
+
+.is-active.is-visible h2{
+    animation-name: scal;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.3s;
+}
+@keyframes scal {
+    0%   {transform: scale(0.5);opacity: 0;}
+    100% {transform: scale(1);opacity: 1;}
+  }
+
+  .is-active.is-visible .left-btn{
+    animation-name: left-right;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes left-right {
+    0%   {transform: translateX(-80px);opacity: 0;}
+    100% {transform: translateX(0);opacity: 1;}
+  }
+
+  .is-active.is-visible .right-btn{
+    animation-name: right-left;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes right-left {
+    0%   {transform: translateX(80px);opacity: 0;}
+    100% {transform: translateX(0);opacity: 1;}
+  }
+
 .item1{
     background-image: linear-gradient(var(--over-lay-color),var(--over-lay-color)),url("/assets/business-team-with-tablet-pc-and-coffee-at-office-P5XPAG3.jpg");
     
@@ -168,20 +213,35 @@ html{
     
 }
 .hero-tag{
+    margin-bottom: 0;
     font-size: 2rem;
     font-weight: 500;
+    position: relative;
+    top:-30px;
+    opacity: 0;
 }
 .hero-title{
     font-size: 4rem;
     font-weight: 600;
+    position: relative;
+    transform: scale(0.5);
+    opacity: 0;
 }
 .btn-box button{
     font-size: 16px;
     font-weight: 600;
     padding: 16px 48px;
 }
+.left-btn{
+    position: relative;
+    transform: translateX(-80px);
+    opacity: 0;
+}
 .right-btn{
     border: 1px solid var(--secondary-color);
+    position: relative;
+    transform: translateX(80px);
+    opacity: 0;
 }
 .right-btn:hover{
     background-color: var(--secondary-color);
