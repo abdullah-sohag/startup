@@ -23,7 +23,14 @@ html{
     justify-content: center;
     align-items: center;
 }
-
+.absolute-fite{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+/* ---- */
 .nunito-font{
     font-family: var(--nunito-font);
 }
@@ -544,14 +551,84 @@ html{
     margin: 10px;
     background-color: #DDDDDD;
     transition-duration: 0.5s;
+    transition-property: width;
 }
 #carousel2 .splide__pagination__page.is-active{
     width: 28px;
-    height: 15px;
     background-color: var(--accent-color);
     transform: scale(1);
 }
 /* testimonial */
+
+/* teem */
+.image-icon-box{
+    /* height: 280px; */
+}
+.card-overlay{
+    transition-duration: 0.3s;
+}
+.icon-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.socialicon{
+    transform: translateY(90px);
+    opacity: 0;
+    transition-duration: 0.7s;
+}
+.socialicon:nth-child(2){
+    transition-delay: 0.2s;
+}
+.socialicon:nth-child(3){
+    transition-delay: 0.3s;
+}
+.socialicon:nth-child(4){
+    transition-delay: 0.4s;
+}
+.socialicon a i{
+    font-size: 20px;
+}
+.socialicon::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    background-color: var(--accent-hover-color);
+    transition-duration: 0.5s;
+    z-index: 0;
+}
+.socialicon:hover:before{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.tem-img{
+    transition-duration: 0.6s;
+}
+.image-icon-box:hover .tem-img{
+    transform: scale(1.3);
+}
+.image-icon-box:hover .socialicon{
+    transform: translateY(0);
+    opacity: 1;
+}
+.image-icon-box:hover .card-overlay{
+    background-color: var(--over-lay-color);
+}
+.tem-card-title{
+    font-size: 23px;
+}
+.tem-card-ubtitle{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* -/teem */
 
 /* -/main */
 
