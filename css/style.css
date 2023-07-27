@@ -410,6 +410,24 @@ html{
   }
 /* -/about us */
 
+/* why chooose us */
+.card-cllass-title-1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.cart-para-class1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.choose-image{
+    min-height: 350px;
+}
+.choosus-card{
+    box-shadow: none;
+    border: 0;
+}
+/* -/why chooose us */
+
 /* -/main */
 
 
