@@ -487,6 +487,17 @@ html{
 }
 /* pricing */
 
+/* quote */
+.quote-form .form-control{
+    font-size: 16px;
+    padding: 8px 12px;
+}
+.quote-form button{
+    padding: 16px 12px;
+    
+}
+/* quote */
+
 /* -/main */
 
 
