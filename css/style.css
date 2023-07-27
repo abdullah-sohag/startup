@@ -498,6 +498,61 @@ html{
 }
 /* quote */
 
+/* testimonial */
+#carousel2 .splide__slide{
+    position: relative;
+    padding: 5px 0;
+}
+.carousel2-card{
+    border: none;
+    background-color: var(--accent-v2);
+}
+.is-visible.is-active .carousel2-card{
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    z-index: 1;
+}
+.carousel2-img{
+    width: 60px;
+    height: 60px;
+}
+.carousel2-card h5{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.carousel2-card h6{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.carousel2-card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#carousel2 .splide__pagination{
+   width: max-content;
+   position: absolute;
+   bottom: -40px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+}
+#carousel2 .splide__pagination__page{
+    border-radius: 0;
+    opacity: 1;
+    width: 20px;
+    height: 15px;
+    margin: 10px;
+    background-color: #DDDDDD;
+    transition-duration: 0.5s;
+}
+#carousel2 .splide__pagination__page.is-active{
+    width: 28px;
+    height: 15px;
+    background-color: var(--accent-color);
+    transform: scale(1);
+}
+/* testimonial */
+
 /* -/main */
 
 

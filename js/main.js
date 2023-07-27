@@ -23,6 +23,16 @@ let splide = new Splide( '#splid1', {
   } );
   
   splide.mount()
+let splide2 = new Splide( '#carousel2', {
+    type  : 'loop',
+    // rewind: true,
+    perPage: 3,
+    perMove: 1,
+    focus  : 'center',
+    // autoplay: true,
+  } );
+  
+  splide2.mount()
 // new Splide( '#splid1' ).mount();
 
 // -/splide --------------------
