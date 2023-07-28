@@ -28,7 +28,11 @@ let splide2 = new Splide( '#carousel2', {
     perPage: 3,
     perMove: 1,
     focus  : 'center',
-    // autoplay: true,
+    breakpoints: {
+        768: {
+          perPage: 1,
+        },
+      },
   } );
   
   splide2.mount()
