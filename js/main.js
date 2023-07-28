@@ -17,15 +17,14 @@ AOS.init();
 // splide --------------------
 let splide = new Splide( '#splid1', {
     type  : 'fade',
-    rewind: true,
+    // rewind: true,
     pagination : false,
     autoplay: true,
   } );
-  
+
   splide.mount()
 let splide2 = new Splide( '#carousel2', {
     type  : 'loop',
-    // rewind: true,
     perPage: 3,
     perMove: 1,
     focus  : 'center',
@@ -33,6 +32,30 @@ let splide2 = new Splide( '#carousel2', {
   } );
   
   splide2.mount()
+
+
+
+let splide3 = new Splide( '#brand-carousel', {
+    type  : 'loop',
+    perMove: 1,
+    pagination : false,
+    autoplay: true,
+    arrows: false,
+    perPage: 8,
+    gap:'10px',
+    breakpoints: {
+        576: {
+          perPage: 4,
+        },
+        768: {
+            perPage: 6,
+          },
+      },
+    
+    // autoplay: true,
+  } );
+  
+  splide3.mount()
 // new Splide( '#splid1' ).mount();
 
 // -/splide --------------------

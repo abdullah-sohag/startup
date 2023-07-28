@@ -30,6 +30,10 @@ html{
     bottom: 0;
     right: 0;
 }
+.input-nofocus:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+}
 /* ---- */
 .nunito-font{
     font-family: var(--nunito-font);
@@ -653,8 +657,51 @@ html{
 }
 /* -/blog */
 
+/* brand carousel */
+
+/* brand carousel */
+
 /* -/main */
 
+
+/* footer */
+.foter-form input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.foter-form button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: var(--primary-color);
+}
+.footer-brand{
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+.foot-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.foter-form input,.foter-form button{
+    font-size: 16px;
+}
+.footer-link span{
+    font-size: 27px;
+    font-weight: 800;
+}
+.footer-link li{
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+.footer-link li:hover{
+    transform: translateX(20px);
+}
+.footer_bootem p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* -/footer */
 
 
 
@@ -848,6 +895,10 @@ html{
     .counter-item{
         width: 263px;
         
+    }
+
+    .footer_bootem{
+        margin-top: -66px;
     }
 
 }
